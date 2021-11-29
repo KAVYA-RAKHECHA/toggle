@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    z-index: 120px;
+}
+button{
+    width: 180px;
+    height: 50px;
+    background-color: aqua;
+    cursor: pointer ;
+    margin: 8px;
+}
+#hlo{
+    z-index: 110px;
+width: 200px;
+height: 200px;
+background-color: aqua;
+position: absolute;
+display:block;
+align-items: center;
+justify-content: center;
+/* bottom: 0; */
+left: 200px;
+bottom: -250px;
+transition: all ease-in 1s;
+}
